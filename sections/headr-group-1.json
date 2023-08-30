@@ -15,7 +15,8 @@
       "settings": {
         "nav-background-color": "#9b046f",
         "nav-pos": "relative",
-        "nav-text-background-color": "#ffffff"
+        "nav-text-background-color": "#ffffff",
+        "nav_img": "shopify:\/\/shop_images\/5IQziK-LogoMakr.png"
       }
     }
   },

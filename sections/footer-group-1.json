@@ -1,18 +1,25 @@
 {
-    "type": "footer",
-    "name": "footer-group-1",
-    "sections": {
-      "footer-1": {
-        "type": "footer-1",
-        "settings": {}
-      },
-      "footer-2":{
-        "type": "footer-2",
-        "settings": {}
+  "type": "footer",
+  "name": "footer-group-1",
+  "sections": {
+    "footer-1": {
+      "type": "footer-1",
+      "settings": {
+        "first-footer-background": "#000000",
+        "text-color": "#fff",
+        "footer-menu": "footer-menu",
+        "logo": "shopify:\/\/shop_images\/5IQziK-LogoMakr.png",
+        "image_size": 25
       }
     },
-    "order": [
-        "footer-1",
-        "footer-2"
-    ]
-  }
+    "footer-2": {
+      "type": "footer-2",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "footer-1",
+    "footer-2"
+  ]
+}
