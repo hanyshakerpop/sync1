@@ -9,10 +9,12 @@
         "text-color": "#ffffff",
         "footer-menu": "footer-menu",
         "logo": "shopify:\/\/shop_images\/5IQziK-LogoMakr.png",
-        "image_size": 25,
+        "image_size": 38,
         "search_bg_color": "#000000",
-        "search_color": "#fff",
-        "text-size": 23
+        "search_color": "#ffffff",
+        "text-size": 23,
+        "padding-top": 10,
+        "padding-bottom": 10
       }
     },
     "footer-2": {
