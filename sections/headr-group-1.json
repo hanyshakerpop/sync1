@@ -5,7 +5,7 @@
     "announcement-1": {
       "type": "announcement-1",
       "settings": {
-        "announcement": "free shipping",
+        "announcement": "Free shipping",
         "announcement_aligment": "center",
         "background-color": "#fff226",
         "text-size": 16
