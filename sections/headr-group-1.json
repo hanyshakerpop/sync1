@@ -7,7 +7,8 @@
       "settings": {
         "announcement": "free shipping",
         "announcement_aligment": "center",
-        "background-color": "#1773B0"
+        "background-color": "#fff226",
+        "text-size": 16
       }
     },
     "header-1": {
