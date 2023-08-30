@@ -6,10 +6,13 @@
       "type": "footer-1",
       "settings": {
         "first-footer-background": "#9b046f",
-        "text-color": "#fff",
+        "text-color": "#ffffff",
         "footer-menu": "footer-menu",
         "logo": "shopify:\/\/shop_images\/5IQziK-LogoMakr.png",
-        "image_size": 25
+        "image_size": 25,
+        "search_bg_color": "#000000",
+        "search_color": "#fff",
+        "text-size": 23
       }
     },
     "footer-2": {
