@@ -600,10 +600,7 @@
     </script>
     <script src="{{ 'product-model.js' | asset_url }}" defer></script>
   {%- endif -%}
-  {% for x in shop.metaobjects.pop %}}
-{{ x.name }}
-    {% endfor %}
-    {{ metafield.value }}
+ 
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       function isIE() {
