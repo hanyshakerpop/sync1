@@ -601,7 +601,7 @@
     <script src="{{ 'product-model.js' | asset_url }}" defer></script>
   {%- endif -%}
   {% for x in shop.metaobjects.pop.values %}
-{{ x.name }}
+{{ x.name }} {{ x.age }}
     {% endfor %}
     
   <script>
