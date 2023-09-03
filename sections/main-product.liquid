@@ -603,6 +603,7 @@
   {% for x in shop.metaobjects.pop %}}
 {{ x.name }}
     {% endfor %}
+    {{ metafield.value }}
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       function isIE() {
