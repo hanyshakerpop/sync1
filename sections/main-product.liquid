@@ -600,7 +600,9 @@
     </script>
     <script src="{{ 'product-model.js' | asset_url }}" defer></script>
   {%- endif -%}
-{{ shop.metaobjects.pop.name }}
+  {% for x in shop.metaobjects.pop %}}
+{{ x.name }}
+    {% endfor %}
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       function isIE() {
