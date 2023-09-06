@@ -1,10 +1,5 @@
 {
   "sections": {
-    "injic": {
-      "type": "injic",
-      "settings": {
-      }
-    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -28,6 +23,7 @@
         "heading",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "height": "large",
         "desktop_image_width": "large",
@@ -44,6 +40,7 @@
     },
     "featured-collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
@@ -70,6 +67,60 @@
         "padding_bottom": 68
       }
     },
+    "injic": {
+      "type": "injic",
+      "disabled": true,
+      "settings": {
+        "set-your-definition": "",
+        "collection_list": [
+
+        ],
+        "product-in-row": "45"
+      }
+    },
+    "c4d8be03-5674-4684-ac9e-ccf0186f43f5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20836771627329__c4d8be03-5674-4684-ac9e-ccf0186f43f5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--20836771627329__c4d8be03-5674-4684-ac9e-ccf0186f43f5-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--20836771627329__c4d8be03-5674-4684-ac9e-ccf0186f43f5-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20836771627329__c4d8be03-5674-4684-ac9e-ccf0186f43f5-heading-1",
+        "template--20836771627329__c4d8be03-5674-4684-ac9e-ccf0186f43f5-text-1",
+        "template--20836771627329__c4d8be03-5674-4684-ac9e-ccf0186f43f5-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "pagefly-home": {
       "type": "pagefly-home",
       "settings": {
@@ -80,6 +131,7 @@
     "image-with-text",
     "featured-collection",
     "injic",
+    "c4d8be03-5674-4684-ac9e-ccf0186f43f5",
     "pagefly-home"
   ]
 }
